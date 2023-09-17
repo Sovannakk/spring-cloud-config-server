@@ -2,3 +2,24 @@ my:
   greeting: hello world from config server
   list:
     value: one, two, three
+
+server:
+  port: 8882
+
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: 2003
+    url: jdbc:postgresql://localhost:5432/student_database
+  sql:
+    init:
+      platform: postgres
