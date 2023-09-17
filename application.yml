@@ -18,7 +18,7 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     username: postgres
-    password: 2003
+    password: {cipher}5ee5d2df1f23cfac0dbcad3f1c1ab501b0d780706aebadb12b70b7e35f74b92e
     url: jdbc:postgresql://localhost:5432/student_database
   sql:
     init:
