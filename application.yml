@@ -1,11 +1,3 @@
-my:
-  greeting: hello world from config server
-  list:
-    value: one, two, three
-
-server:
-  port: 8882
-
 spring:
   jpa:
     database: POSTGRESQL
