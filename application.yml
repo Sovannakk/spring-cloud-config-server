@@ -10,7 +10,7 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     username: postgres
-    password: '{cipher}c64f301ed42aebb35a4b0ea1bf4944193f3229cf930163a481044bd6c5e000d0'
+    password: '{cipher}AYBMRmgndYn+/L+aAqJapP/uAMsKoexXFQXGciy1/lQnRLGvUQAB0Zy8CEE9JaFQasWsCL6AwigVoNpgw/72Usy1qVpW5LBRcwZ6gNspcaXnW6lLk+/7cS7xYbPhIzmkbRJowSi4rZyH7CpewnZ+SOpyF3gr1a1BtG/aMTWe4FrYoXGqkjTSrFv71OWBre7k1DS7GOnlZAx8bo1F5CoxXN2BN0DZpc/2pkwWtMiBvaHIXZ9rvQnXU31hRavUdVAa0T2kiyedFYLidiOejRWOlFGkDUf9nXXru97gupFXlVRdUjCQJBMD5ko2LCjgyhtGQgcnK0xXbXIcbUfu3J75aK76BYqMP+6n6Cq7qvV3kbUFZg0FfR5GXxi0AXejpk3IiXwh8aKI+m0rWSh90ybcUKJ8Q/jKEc3ciArcR59D7UaPmj75hV+Mg61rKZmWlyNOicoPgiIBOoNf7YSs3R8clbuGVuvgeN35cQQ5A+Xp7woZwa5MHuihuXkUC+3wiDRtObz1ujOJHPFHo1DXmwz3Pq5W3KzLSULDemAhOve3g7zNGg=='
     url: jdbc:postgresql://localhost:5432/student_database
   sql:
     init:
