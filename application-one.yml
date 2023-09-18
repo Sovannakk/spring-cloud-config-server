@@ -2,3 +2,6 @@ my:
   greeting: hello world from config server one
   list:
     value: one, two, three
+
+server:
+  port: 9090
